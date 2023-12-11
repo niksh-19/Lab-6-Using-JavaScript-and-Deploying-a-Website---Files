@@ -53,7 +53,7 @@ function recalculate(){
 
 // INSERT YOUR CODE HERE
 
-//var modelButton = document.getElementById("model-button");
+let modelButton = document.getElementById("model-button");
 
 function changeModel(){
     let modelText = document.getElementById("model-text");
@@ -67,7 +67,7 @@ function changeModel(){
     }
     recalculate();
 }
-document.getElementById("model-button").addEventListener('click',changeModel);
+modelButton.addEventListener("click",changeModel);
 
 
 
